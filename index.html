@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Optimal Pairwise Alignment</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Smith-Watterman Local Alignment </h1>
+        <h2>This is a free online tool to determine similarities between two strings of nucleic acid sequences or protein sequences</h2>
+    </header>
+    <main>
+        <form>
+			<label for="sequence1">Sequence 1:</label>
+			<input type="text" id="sequence1" name="sequence1"><br>
+			<label for="sequence2">Sequence 2:</label>
+			<input type="text" id="sequence2" name="sequence2"><br>
+			<input type="button" value="Align Sequences" onclick="alignSequences()">
+		</form>
+        <table id="scoreMatrix">
+			<tr>
+				<th></th>
+				<th></th>
+			</tr>
+		</table>
+    </main>
+    <footer>
+        <p>&copy; 2023 Bioinformatics Project Andres Garcia</p>
+    </footer>
+</body>
+</html>
