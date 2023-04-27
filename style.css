@@ -5,6 +5,9 @@ body {
 	line-height: 1.6;
 	margin: 0;
 	padding: 0;
+	min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -15,7 +18,7 @@ header {
 }
 
 h1 {
-	font-size: 36px;
+	font-size: 60px;
 	margin: 0;
 }
 
@@ -24,7 +27,7 @@ main {
 }
 
 h2 {
-	font-size: 24px;
+	font-size: 30px;
 	margin: 0;
 }
 
@@ -37,6 +40,7 @@ footer {
 	color: #fff;
 	padding: 10px;
 	text-align: center;
+	margin-top: auto;
 }
 table {
 	border-collapse: collapse;
@@ -47,4 +51,26 @@ td, th {
 	border: 1px solid black;
 	padding: 5px;
 	text-align: center;
+}
+
+form {
+	font-size: 40px; 
+
+}
+
+#sequence1{
+	width:300px;
+	height: 40px;
+	font-size:35px;
+}
+#sequence2{
+	width:300px;
+	height: 40px;
+	font-size:35px;
+}
+
+#button{
+	width:300px;
+	height:40px;
+	font-size:20px;
 }
